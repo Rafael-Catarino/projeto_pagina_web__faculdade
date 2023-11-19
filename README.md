@@ -27,6 +27,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/711px-PHP-logo.svg.png" width="100px" />
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Discord_logo.svg/200px-Discord_logo.svg.png" width="200px" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="100px" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/113px-Visual_Studio_Code_1.35_icon.svg.png" width="100px" />
 </div>
 
 <h2> 🙋 Grupo </h2>
