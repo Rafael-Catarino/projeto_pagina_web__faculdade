@@ -1,0 +1,66 @@
+main {
+  background-color: black;
+}
+
+.menu-hamburguer h2 {
+  padding: 16px;
+  font-size: 28px;
+  color: white;
+}
+
+.hamburguer {
+  margin: 12px auto;
+  border-radius: 20px;
+  border: 3px solid #8a551a;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.764);
+}
+
+.hamburguer img {
+  height: 500px;
+  width: 60%;
+}
+
+.hamburguer div {
+  padding: 4px;
+  width: 40%;
+}
+
+.hamburguer div h3 {
+  font-size: 36px;
+  margin: 20px 0px;
+  color: #d7a927;
+}
+
+.hamburguer div p {
+  margin: 20px 0px;
+}
+
+.hamburguer div button {
+  border-radius: 20px;
+  border: none;
+  background-color: #8a551a;
+  padding: 15px 60px;
+  transition: 0.5s;
+}
+
+.hamburguer div button:hover {
+  background-color: #d7a82793;
+  transform: scale(1.05);
+}
+
+span {
+  font-weight: bolder;
+}
+
+.img-left {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.img-right {
+  border-radius: 0px 20px 20px 0px;
+}
