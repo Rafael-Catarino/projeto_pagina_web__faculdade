@@ -1,0 +1,95 @@
+body {
+  background-image: url("../images/image-fundo.jpg");
+}
+
+.container_login {
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.207);
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #d7a927;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  padding: 8px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 50%;
+  width: 280px;
+}
+
+.container_login h3 {
+  padding-bottom: 8px;
+}
+
+.container_login form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_login form input {
+  border-radius: 10px;
+  margin: 8px 0;
+  padding: 10px;
+}
+
+.container_login form input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.container_login form label {
+  color: #8d0c1d;
+  font-weight: bolder;
+  align-self: flex-start;
+}
+
+.container_login span {
+  font-size: 10px;
+}
+
+.container_login span button {
+  cursor: pointer;
+  background-color: #d7a927;
+  border: none;
+  color: blue;
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+.register_button,
+.login_button {
+  background-color: #8a551a;
+  transition: 0.5s;
+  border: none;
+  color: black;
+}
+
+.register_button:hover,
+.login_button:hover {
+  transform: scale(1.05);
+}
+
+.login_error {
+  font-size: smaller;
+  color: red;
+  padding-bottom: 8px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100vw;
+}
+
+.msg_senha_repete,
+.msg_email,
+.msg_senha,
+.msg_nome {
+  color: #8d0c1d;
+  font-size: 10px;
+  margin-bottom: 8px;
+  display: none;
+}

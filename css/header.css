@@ -1,0 +1,28 @@
+header {
+  border-bottom: 2px solid black;
+  background-color: #8a551a;
+  height: 100px;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo img {
+  height: 90px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.links a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  color: #d7a927;
+}
