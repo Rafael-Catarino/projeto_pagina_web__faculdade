@@ -37,9 +37,9 @@ senha.addEventListener("input", () => {
 senhaRepita.addEventListener("input", () => {
   if (senhaRepita.value.length < 8) {
     senhaRepita.style.border = "2px solid #8d0c1d";
-    document.querySelector(".msg_senha_repita").style.display = "block";
+    document.querySelector(".msg_senha_repete").style.display = "block";
   } else {
     senhaRepita.style.border = "";
-    document.querySelector(".msg_senha_repita").style.display = "none";
+    document.querySelector(".msg_senha_repete").style.display = "none";
   }
 });

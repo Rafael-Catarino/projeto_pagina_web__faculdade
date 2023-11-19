@@ -1,6 +1,7 @@
 <?php
 require_once "ClassLogin.php";
 $l1 = new Login('127.0.0.1', 'root', 'Carate12@', 'revolutionBurguer__trabalhoFaculdade');
+$l1->createTable();
 ?>
 
 <!DOCTYPE html>
@@ -54,12 +55,16 @@ $l1 = new Login('127.0.0.1', 'root', 'Carate12@', 'revolutionBurguer__trabalhoFa
           if ($password != $password_repite) {
             echo "<p style='color:rgb(147, 13, 13); font-size:small; padding-bottom:8px;'>Favor prencher as duas senhas iguais</p>";
           } else {
-            $res = $l1->insertData($name, $email, $password);
-            if (!$res) {
-              echo "<p style='color:rgb(147, 13, 13); font-size:small; padding-bottom:8px;'>Email já cadastrado</p>";
-            } else if ($res) {
-              echo "<p style='color:blue; font-size:small; padding-bottom:8px;'>Cadastro realizado com sucesso</p>";
-              header("Location:login.php");
+            if (strlen($password) < 8) {
+              echo "<p style='color:rgb(147, 13, 13); font-size:small; padding-bottom:8px;' >Favor prencher uma senha com 8 caracteres</p>";
+            } else {
+              $res = $l1->insertData($name, $email, $password);
+              if (!$res) {
+                echo "<p style='color:rgb(147, 13, 13); font-size:small; padding-bottom:8px;'>Email já cadastrado</p>";
+              } else if ($res) {
+                echo "<p style='color:blue; font-size:small; padding-bottom:8px;'>Cadastro realizado com sucesso</p>";
+                header("Location:login.php");
+              }
             }
           }
         }
