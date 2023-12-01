@@ -1,15 +1,15 @@
-const nome = document.querySelector("#name");
+const clientName = document.querySelector("#name");
 const email = document.querySelector("#email_register");
 const senha = document.querySelector("#password_register");
 const senhaRepita = document.querySelector("#password_register_repite");
 const emailRegex = /\S+@\S+\.\S+/;
 
-nome.addEventListener("input", () => {
-  if (nome.value.length < 3) {
-    nome.style.border = "2px solid #8d0c1d";
+clientName.addEventListener("input", () => {
+  if (clientName.value.length < 3) {
+    clientName.style.border = "2px solid #8d0c1d";
     document.querySelector(".msg_nome").style.display = "block";
   } else {
-    nome.style.border = "";
+    clientName.style.border = "";
     document.querySelector(".msg_nome").style.display = "none";
   }
 });
