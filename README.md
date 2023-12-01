@@ -52,7 +52,7 @@
   </td>
   <td align="center">
     <a href="https://www.linkedin.com/in/danielcferreira/">
-    <img src="https://media.licdn.com/dms/image/D5635AQFtGjRm-omHZQ/profile-framedphoto-shrink_400_400/0/1696604483278?e=1701010800&v=beta&t=UyQedRb0PHvWZkqyBqworTyuvXuFae25hMwI8ABB4Ho" width="100px;" alt="Daniel F."/><br>
+    <img src="https://media.licdn.com/dms/image/D5635AQFtGjRm-omHZQ/profile-framedphoto-shrink_400_400/0/1696604483278?e=1702047600&v=beta&t=jWHiFQ_HIwUgEVZmJ6AS3-2pW0O7KjgZ7UTcQQYA7Qo" width="100px;" alt="Daniel F."/><br>
     <sub>
       <b>Daniel F.</b>
     </sub><br>
